@@ -56,29 +56,29 @@ const ShowWeek = (props) => {
       <p>{props.day}</p>
       <p>{props.date}</p>
       <div >
-        {/* <span onClick={doneHandler()}>
-          name={done ? ( <i class="fa-regular fa-circle-check"></i>
-          ): ( <i class="fa-solid fa-circle-check"></i>)}
-        </span> */}
+        <span onClick={doneHandler}>
+          {done ? ( <i class="fa-solid fa-circle-check"></i>
+          ): ( <i class="fa-regular fa-circle-check"></i>)}
+        </span>
 
-        <i class="fa-regular fa-circle-check"
+        {/* <i class="fa-regular fa-circle-check"
         onClick={doneHandler}
         name={done ? "fa-regular fa-circle-check" : "fa-solid fa-circle-check"}
-        ></i>
+        ></i> */}
 
-{/* <spna onClick={notDoneHandler}>
-  name={notDone ? (<i class="fa-regular fa-circle-xmark"></i> 
-  ) : ( <i class="fa-solid fa-circle-xmark"></i>)}
-</spna> */}
+<spna onClick={notDoneHandler}>
+  {notDone ? (<i class="fa-solid fa-circle-xmark"></i> 
+  ) : ( <i class="fa-regular fa-circle-xmark"></i>)}
+</spna>
 
-        <i class="fa-regular fa-circle-xmark"
+        {/* <i class="fa-regular fa-circle-xmark"
          onClick={notDoneHandler}
          name={notDone ? "close-circle" : "close-circle-outline"}
-        ></i>
+        ></i> */}
       </div>
     </div>
   );
 };
 
-// exporing up a week component by default
+
 export default ShowWeek;
