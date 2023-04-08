@@ -4,7 +4,7 @@ import Class from "./Habit.module.css"
 //import ShowWeek from '../../showWeek/ShowWeek'
 import store from '../../store'
 import { useParams } from 'react-router-dom'
-import ShowWeek from '../../showWeek/ShowWeek'
+import ShowWeek from '../showWeek/ShowWeek'
 
 
 const HabitDetails = () => {

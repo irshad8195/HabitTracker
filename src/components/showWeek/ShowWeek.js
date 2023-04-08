@@ -2,8 +2,8 @@
 // importing required libraries
 import React, { useEffect, useState } from "react";
 import Class from "./ShowWeek.module.css"
-import store from "../store";
-import { changingStatus } from "../actions/actions";
+import store from "../../store";
+import { changingStatus } from "../../actions/actions";
 
 
 const ShowWeek = (props) => {
